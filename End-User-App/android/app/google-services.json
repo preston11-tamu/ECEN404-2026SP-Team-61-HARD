@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "633050502448",
+    "project_id": "hard-final",
+    "storage_bucket": "hard-final.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633050502448:android:d9c97acc96c4d2fe77e4f5",
+        "android_client_info": {
+          "package_name": "com.example.capstone_app_three"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXqllEWwYpnH5k2gYbwcdzkXPJefAV4UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
