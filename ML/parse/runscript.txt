@@ -1,3 +1,6 @@
-cd /d "H:\My Drive\Capstone Python Files\tlv_to_json_demo\demo"
+python demo.py --command_port=COM3 --data_port=COM4 --datatype="type_here"
 
-python demo.py --command_port=COM3 --data_port=COM4 --visualizer_data_loc=datalocation.dat
+// datatypes are:
+// 1. fall; parses .dat files in raw_data/fall
+// 2. notfall; parses .dat files in raw_data/nonfall
+// 3. test; used for /simulation/ which contains labeled files meant for validation & evaluation
