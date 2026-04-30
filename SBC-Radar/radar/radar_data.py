@@ -102,7 +102,7 @@ def read_uart(ser, rx_buf):
 		rx_buf.extend(data)
 
 
-#actually split the raw data into frames, look into using official parser instead of this kinda jank way
+#actually split the raw data into frames
 def process_rx_buffer(rx_buffer, out_queue):
 	while True:
 		start = rx_buffer.find(MAGIC)
