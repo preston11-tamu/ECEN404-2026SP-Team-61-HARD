@@ -8,7 +8,7 @@ from typing import List
 from radar.parser_mmw_demo import parser_one_mmw_demo_output_packet
 
 MAGIC = b'\x02\x01\x04\x03\x06\x05\x08\x07' #TI magic decoding number that shows start of frame
-HEADER_SIZE = 44 #size of header before data, check this
+HEADER_SIZE = 44 #size of header before data
 rx_buf=bytearray() #rx buffer
 
 @dataclass
