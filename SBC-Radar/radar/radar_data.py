@@ -58,7 +58,7 @@ def parse_data(ser):
         print("FRAME FAIL")
         buffer.clear() #clear the buffer if it fails
 
-#parsing script for frame
+#parsing script for frame, uses TI parser to get values from the packet
 def parse_frame(packet):
 	frame = RadarFrame()
 	
