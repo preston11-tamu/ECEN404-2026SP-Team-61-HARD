@@ -3,13 +3,9 @@ import requests
 import time
 import datetime
 
-#PUBLISH_URL = os.environ["ALERT_PUBLISH_URL"]     # full https URL
-#HEARTBEAT_URL = os.environ["HEARTBEAT_PUBLISH_URL"]
-#API_KEY = os.environ["API_KEY"]            # key
-
-PUBLISH_URL = "https://publishalert-ufrpqieccq-uc.a.run.app"	#fix hard coding later, for testing
-HEARTBEAT_URL = "https://deviceheartbeat-ufrpqieccq-uc.a.run.app"
-API_KEY = "hard-pi-9f3a2c7b-ALERTS"	#fix hard coding later
+PUBLISH_URL = os.environ["ALERT_PUBLISH_URL"]     # full https URL
+HEARTBEAT_URL = os.environ["HEARTBEAT_PUBLISH_URL"]
+API_KEY = os.environ["API_KEY"]            # key
 
 def publish_alert(room: str, alert_type: str = "Fall detected", confidence=None):
     payload = {
