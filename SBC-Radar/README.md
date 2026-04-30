@@ -1,2 +1,2 @@
-# TEAM-61-HARD
-ECEN 404 Capstone Project: Human Activity Radar Detector (HARD)
+**Raspberry Pi & Radar Subsystems**
+This folder contains all oft he code that is needed to be run on the raspberry pi.
