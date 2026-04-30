@@ -1,0 +1,3 @@
+#Power Subsystem files consist of two primary components: the Altium File for the power PCB and the OrCAD document showing the validation done to prove the system works.
+#Real world validation data can be seen in the cap.excel document with the recorded tables of data from testing, including the battery charging and voltage changes for the system
+#Any additional data is in the MISC folder, including the BOM and older versions of the altium file
