@@ -1,0 +1,17 @@
+[Unit]
+Description=HARD
+After=network.target
+Wants=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/williamjachimiak/Documents/Capstone/main.py
+WorkingDirectory=/home/williamjachimiak/Documents/Capstone
+EnvironmentFile=/etc/fall-detector.env
+Restart=on-failure
+StandardOutput=inherit
+StandardError=inherit
+User=williamjachimiak
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
