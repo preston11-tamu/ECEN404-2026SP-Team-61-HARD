@@ -4,13 +4,13 @@ After=network.target
 Wants=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 /home/williamjachimiak/Documents/Capstone/main.py
-WorkingDirectory=/home/williamjachimiak/Documents/Capstone
+ExecStart=/usr/bin/python3 /home/user/Documents/Capstone/main.py
+WorkingDirectory=/home/user/Documents/Capstone
 EnvironmentFile=/etc/fall-detector.env
 Restart=on-failure
 StandardOutput=inherit
 StandardError=inherit
-User=williamjachimiak
+User=user
 Environment=PYTHONUNBUFFERED=1
 
 [Install]
