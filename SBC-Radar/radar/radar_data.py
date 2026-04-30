@@ -24,7 +24,7 @@ class RadarFrame:
     num_objects: int = 0
     objects: List[DetectedObject] = field(default_factory=list)
 
-#parsing script from 403
+#parsing script from 403, not used in 404
 def parse_data(ser):
     buffer = bytearray()
     data = ser.read(4096)   # read raw bytes from radar
